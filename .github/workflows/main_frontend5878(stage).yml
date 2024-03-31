@@ -10,8 +10,8 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_WEBAPP_NAME: frontend5878   # set this to your application's name
-  NODE_VERSION: '18.x'                # set this to the node version to use
+  AZURE_WEBAPP_NAME: myfirstfrontendapptest   # set this to your application's name
+  NODE_VERSION: '18.19.0'                # set this to the node version to use
   AZURE_WEBAPP_PACKAGE_PATH: '.' # set this to the path to your web app project, defaults to the repository root
   AZURE_WEBAPP_SLOT_NAME: stage
 
